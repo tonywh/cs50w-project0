@@ -1,0 +1,65 @@
+.navbar-brand:hover, .nav-link:hover {
+  background: lightgrey; }
+
+header {
+  color: darkgreen;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em; }
+
+img {
+  width: 100%;
+  padding: 20px; }
+
+#news {
+  padding: 20px;
+  background: #e0e0e0; }
+
+.text-content {
+  padding: 20px; }
+
+#news li {
+  font-weight: bold;
+  color: darkgreen; }
+
+.container {
+  display: flex;
+  flex-wrap: wrap; }
+
+@media (min-width: 1000px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto; }
+
+  .dso-grid {
+    display: grid;
+    grid-template-columns: auto auto; }
+
+  table {
+    width: 960px; } }
+@media (max-width: 999px) {
+  .grid, .dso-grid {
+    display: grid;
+    grid-template-columns: auto; }
+
+  table {
+    width: 100%; } }
+.grid-item {
+  padding: 20px; }
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse; }
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: centered; }
+
+#dso-title {
+  text-align: center; }
+
+#dso-about {
+  font-size: 1.5em; }
+
+/*# sourceMappingURL=project0.css.map */
